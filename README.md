@@ -10,7 +10,7 @@ For this project, we were asked to create an automated pipeline that takes in ne
 
 ## Results
 
-First, we defined a function to read in our three data files and creates three seperate DataFrames. Here is our function: 
+First, we defined a function to read in our three data files and creates three separate DataFrames. Here is our function: 
 
 ![](https://github.com/Stewartsl17/Movies-ETL/blob/master/Images/ETL%20Function.png)
 
@@ -26,7 +26,7 @@ Next, we have the metadata that we pulled from Kaggle and converted into a dataf
 
 Finally, we have the ratings data that we converted into a dataframe:
 
-* Table: MoviesLens Ratings dataframe <br>
+* Table: MovieLens Ratings dataframe <br>
 ![](https://github.com/Stewartsl17/Movies-ETL/blob/master/Images/Ratings%20Dataframe.png)
 
 Once our data was read in, we were to extract and transform the Wiki data in order to merge it with the Kaggle dataset, which was done [here](https://github.com/Stewartsl17/Movies-ETL/blob/master/ETL_clean_wiki_movies.ipynb). Then, we used the same process to combine those two datasets with the MovieLens rating data [here](https://github.com/Stewartsl17/Movies-ETL/blob/master/ETL_clean_kaggle_data.ipynb)
@@ -37,7 +37,4 @@ After merging our three files, we then needed to create a database in SQL in ord
 ![](https://github.com/Stewartsl17/Movies-ETL/blob/master/ratings_query.png)
 
 * Table: Movies Query <br>
-* ![](https://github.com/Stewartsl17/Movies-ETL/blob/master/movies_query.png)
-
-
-
+![](https://github.com/Stewartsl17/Movies-ETL/blob/master/movies_query.png)
